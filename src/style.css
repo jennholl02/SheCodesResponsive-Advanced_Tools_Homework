@@ -4,6 +4,20 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  #app-link {
+    padding: none;
+    font-size: 12px;
+  }
+  #app-header {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .app-wording {
+    font-size: 16px;
+  }
+}
+
 body {
   margin-top: 100px;
 }
